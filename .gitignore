@@ -1,0 +1,10 @@
+# node dependencies
+node_modules/
+.npm
+
+# webstorm
+.idea/
+
+#dotenv
+.env
+.env.local
