@@ -1,0 +1,16 @@
+body {
+    height: 100vh;
+    display: flex;
+    overflow: hidden;
+}
+
+aside {
+    flex: 1 0 auto;
+    background: #ccc;
+}
+
+main {
+    flex: 1 0 70%;
+    overflow-y: auto;
+    background: white;
+}

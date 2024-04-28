@@ -24,7 +24,7 @@ export async function start() {
 	server.set('view engine', 'ejs');
 	server.set('views', path.join(__dirname, "views"));
 	// use `/public` directory for static files
-	server.use(express.static(path.join(__dirname, "public")));
+	server.use('/public', express.static(path.join(__dirname, "public")));
 	
 	WebRoutes.register(server);
 	
