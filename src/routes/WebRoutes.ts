@@ -5,8 +5,8 @@ export class WebRoutes {
 		app.get('/', async (req, res) => {
 			return res.render('template');
 		});
-		app.get('/layout-fixed-sidebar', async (req, res) => {
-			return res.render('layout-fixed-sidebar');
+		app.get('/layout-sidebar', async (req, res) => {
+			return res.render('layout-sidebar');
 		});
 	}
 }
